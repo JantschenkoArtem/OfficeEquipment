@@ -17,11 +17,11 @@ public class Projector extends OfficeEquipment {
     private String connectivity;
     private boolean is3DReady;
 
-    public Projector(int id,
+    public Projector(String id,
                      String modelName,
                      String manufacturer,
                      int yearManufacture,
-                     int price,
+                     double price,
                      double weight,
                      boolean isOperational,
                      int lumen,

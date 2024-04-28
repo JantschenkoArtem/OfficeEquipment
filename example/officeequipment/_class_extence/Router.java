@@ -16,11 +16,11 @@ public class Router extends OfficeEquipment {
     private boolean isDualBand;
     private String connectivityType;
 
-    public Router(int id,
+    public Router(String id,
                   String modelName,
                   String manufacturer,
                   int yearManufacture,
-                  int price,
+                  double price,
                   double weight,
                   boolean isOperational,
                   int speed,

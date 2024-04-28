@@ -16,11 +16,11 @@ public class Scanner extends OfficeEquipment {
     private boolean isDuplexScanning;
     private String scannerType;
 
-    public Scanner(int id,
+    public Scanner(String id,
                    String modelName,
                    String manufacturer,
                    int yearManufacture,
-                   int price,
+                   double price,
                    double weight,
                    boolean isOperational,
                    int scanResolution,

@@ -17,11 +17,11 @@ public class Tablet extends OfficeEquipment {
     String cameraResolution;
     String processorType;
 
-    public Tablet(int id,
+    public Tablet(String id,
                   String modelName,
                   String manufacturer,
                   int yearManufacture,
-                  int price,
+                  double price,
                   double weight,
                   boolean isOperational,
                   double screenSize,

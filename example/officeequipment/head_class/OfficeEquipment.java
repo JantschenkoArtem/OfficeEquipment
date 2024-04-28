@@ -6,15 +6,15 @@ package org.example.officeequipment.head_class;
  *   yearOfManufacture (год выпуска), price, weight, isOperational (исправность).
  */
 public class OfficeEquipment {
-    private int id;
+    private String id;
     private String modelName;
     private String manufacturer;
     private int yearManufacture;
-    private int price;
+    private double price;
     private double weight;
     private boolean isOperational;
 
-    public OfficeEquipment(int id, String modelName, String manufacturer, int yearManufacture, int price, double weight, boolean isOperational) {
+    public OfficeEquipment(String id, String modelName, String manufacturer, int yearManufacture, double price, double weight, boolean isOperational) {
         this.id = id;
         this.modelName = modelName;
         this.manufacturer = manufacturer;
@@ -24,11 +24,11 @@ public class OfficeEquipment {
         this.isOperational = isOperational;
     }
 
-    public int getId() {
+    public String getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(String id) {
         this.id = id;
     }
 
@@ -56,11 +56,11 @@ public class OfficeEquipment {
         this.yearManufacture = yearManufacture;
     }
 
-    public int getPrice() {
+    public double getPrice() {
         return price;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(double price) {
         this.price = price;
     }
 
@@ -90,6 +90,6 @@ public class OfficeEquipment {
                 ", price=" + price +
                 ", weight=" + weight +
                 ", isOperational=" + isOperational +
-                '}';
+                '}' + '\'';
     }
 }

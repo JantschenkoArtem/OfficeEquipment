@@ -16,11 +16,11 @@ public class Laptop extends OfficeEquipment {
     private String operatingSystem;
     private boolean isTouchscreen;
 
-    public Laptop(int id,
+    public Laptop(String id,
                   String modelName,
                   String manufacturer,
                   int yearManufacture,
-                  int price,
+                  double price,
                   double weight,
                   boolean isOperational,
                   String processorType,

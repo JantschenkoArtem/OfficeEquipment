@@ -17,11 +17,11 @@ public class Switch extends OfficeEquipment {
    private boolean stackable;
    private String formFactor;
 
-    public Switch(int id,
+    public Switch(String id,
                   String modelName,
                   String manufacturer,
                   int yearManufacture,
-                  int price,
+                  double price,
                   double weight,
                   boolean isOperational,
                   int portCount,

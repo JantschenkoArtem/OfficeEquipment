@@ -17,11 +17,11 @@ public class Printer extends OfficeEquipment {
     boolean isColor;
     int dutyCycle;
 
-    public Printer(int id,
+    public Printer(String id,
                    String modelName,
                    String manufacturer,
                    int yearManufacture,
-                   int price,
+                   double price,
                    double weight,
                    boolean isOperational,
                    String connectivity,

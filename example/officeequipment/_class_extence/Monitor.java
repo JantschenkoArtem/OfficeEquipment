@@ -16,11 +16,11 @@ public class Monitor extends OfficeEquipment {
     String ports;
     boolean isHDR;
 
-    public Monitor(int id,
+    public Monitor(String id,
                    String modelName,
                    String manufacturer,
                    int yearManufacture,
-                   int price,
+                   double price,
                    double weight,
                    boolean isOperational,
                    double screenSize,
