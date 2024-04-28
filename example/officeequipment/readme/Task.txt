@@ -15,31 +15,31 @@
 
   Класс Monitor (Монитор) - наследуется от OfficeEquipment.
   Дополнительные поля: screenSize, resolution, panelType,
-  refreshRate, isCurved, ports, isHDR.
+  refreshRate, isCurved, ports, isHDR. +
 
   Класс Printer (Принтер) - наследуется от OfficeEquipment.
   Дополнительные поля: printTechnology, printSpeed, maxResolution,
-  isColor, paperSize, connectivity, dutyCycle.
+  isColor, paperSize, connectivity, dutyCycle. +
 
   Класс Scanner (Сканер) - наследуется от OfficeEquipment.
   Дополнительные поля: scanResolution, scanSpeed, colorDepth,
-  maxPaperSize, connectivity, isDuplexScanning, scannerType.
+  maxPaperSize, connectivity, isDuplexScanning, scannerType. +
 
   Класс Projector (Проектор) - наследуется от OfficeEquipment.
   Дополнительные поля: lumens, resolution, contrastRatio, lampLife,
-  projectionSize, connectivity, is3DReady.
+  projectionSize, connectivity, is3DReady. +
 
   Класс Tablet (Планшет) - наследуется от OfficeEquipment.
   Дополнительные поля: screenSize, storageSize, operatingSystem,
-  batteryLife, isCellular, cameraResolution, processorType.
+  batteryLife, isCellular, cameraResolution, processorType. +
 
   Класс Phone (Телефон) - наследуется от OfficeEquipment.
   Дополнительные поля: screenSize, storageSize, operatingSystem,
-  batteryLife, isSmart, cameraResolution, processorType.
+  batteryLife, isSmart, cameraResolution, processorType. +
 
   Класс Router (Маршрутизатор) - наследуется от OfficeEquipment.
   Дополнительные поля: speed, band, security, ports, range,
-  isDualBand, connectivityType.
+  isDualBand, connectivityType. +
 
   Класс Switch (Коммутатор) - наследуется от OfficeEquipment.
   Дополнительные поля: portCount, speed, layer, managementType,
