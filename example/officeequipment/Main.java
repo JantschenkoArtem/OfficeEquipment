@@ -25,8 +25,12 @@ public class Main {
         }
         System.out.println("equipmentList = " + equipmentList);
         System.out.println();
-        new Methode().printAllEquipment(equipmentList);
+        Methode.printAllEquipment(equipmentList);
         System.out.println();
-        new Methode().calculateTotalPrice(equipmentList);
+        Methode.calculateTotalPrice(equipmentList);
+        System.out.println();
+        Methode.findOldestEquipment(equipmentList);
+        System.out.println();
+        Methode.countOperational(equipmentList);
     }
 }

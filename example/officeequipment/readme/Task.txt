@@ -49,8 +49,8 @@
   Создайте массив из 10 произвольных объектов, выбирая из вышеуказанных классов.
   Используйте Faker для генерации значений полей
   Реализуйте следующие методы которые принимают массив OfficeEquipment:
-  printAllEquipment(OfficeEquipment[] officeEquipment) - выводит информацию о всей технике.
-  calculateTotalPrice(OfficeEquipment[] officeEquipment) - вычисляет общую стоимость всей техники.
-  listByManufacturer(OfficeEquipment[] officeEquipment, String manufacturer) - выводит всю технику указанного производителя.
-  findOldestEquipment(OfficeEquipment[] officeEquipment, int year) - находит самую старую технику по году выпуска.
-  countOperational(OfficeEquipment[] officeEquipment) - подсчитывает количество исправной техники.
+  printAllEquipment(OfficeEquipment[] officeEquipment) - выводит информацию о всей технике. +
+  calculateTotalPrice(OfficeEquipment[] officeEquipment) - вычисляет общую стоимость всей техники. +
+  listByManufacturer(OfficeEquipment[] officeEquipment, String manufacturer) - выводит всю технику указанного производителя. -
+  findOldestEquipment(OfficeEquipment[] officeEquipment, int year) - находит самую старую технику по году выпуска. +
+  countOperational(OfficeEquipment[] officeEquipment) - подсчитывает количество исправной техники. +
