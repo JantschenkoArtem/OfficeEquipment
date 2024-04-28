@@ -26,5 +26,7 @@ public class Main {
         System.out.println("equipmentList = " + equipmentList);
         System.out.println();
         new Methode().printAllEquipment(equipmentList);
+        System.out.println();
+        new Methode().calculateTotalPrice(equipmentList);
     }
 }

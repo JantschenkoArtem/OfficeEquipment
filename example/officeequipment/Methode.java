@@ -10,4 +10,12 @@ public class Methode {
             System.out.println(equipment);
         }
     }
+    public double calculateTotalPrice(List<OfficeEquipment>equipmentList){
+        double totalPrice=0;
+        for (OfficeEquipment officeEquipment : equipmentList) {
+            totalPrice+=officeEquipment.getPrice();
+        }
+        System.out.println("totalPrice : " + totalPrice);
+        return totalPrice;
+    }
 }
