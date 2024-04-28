@@ -1,4 +1,4 @@
-package org.example.officeequipment.classes;
+package org.example.officeequipment._class_extence;
 
 /**
  *

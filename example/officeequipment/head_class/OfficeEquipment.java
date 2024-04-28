@@ -1,4 +1,4 @@
-package org.example.officeequipment.classes;
+package org.example.officeequipment.head_class;
 
 /**
  * Базовый класс OfficeEquipment (Офисная техника) - общий класс для всей техники.

@@ -1,4 +1,6 @@
-package org.example.officeequipment.classes;
+package org.example.officeequipment._class_extence;
+
+import org.example.officeequipment.head_class.OfficeEquipment;
 
 /**
  *

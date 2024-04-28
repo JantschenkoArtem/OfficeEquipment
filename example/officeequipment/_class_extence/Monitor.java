@@ -1,11 +1,13 @@
-package org.example.officeequipment.classes;
+package org.example.officeequipment._class_extence;
+
+import org.example.officeequipment.head_class.OfficeEquipment;
 
 /**
  *   Класс Monitor (Монитор) - наследуется от OfficeEquipment.
  *   Дополнительные поля: screenSize, resolution, panelType,
  *   refreshRate, isCurved, ports, isHDR.
  */
-public class Monitor extends OfficeEquipment{
+public class Monitor extends OfficeEquipment {
 
     double screenSize;
     String resolution;

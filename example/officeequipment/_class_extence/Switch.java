@@ -1,4 +1,6 @@
-package org.example.officeequipment.classes;
+package org.example.officeequipment._class_extence;
+
+import org.example.officeequipment.head_class.OfficeEquipment;
 
 /**
  *
@@ -6,7 +8,7 @@ package org.example.officeequipment.classes;
  Дополнительные поля: portCount, speed, layer, managementType,
  powerOverEthernet, stackable, formFactor.
  */
-public class Switch extends OfficeEquipment{
+public class Switch extends OfficeEquipment {
     private int portCount;
     private int speed;
    private int layer;

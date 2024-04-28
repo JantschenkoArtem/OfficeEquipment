@@ -1,11 +1,13 @@
-package org.example.officeequipment.classes;
+package org.example.officeequipment._class_extence;
+
+import org.example.officeequipment.head_class.OfficeEquipment;
 
 /**
  * Класс Laptop (Ноутбук) - наследуется от OfficeEquipment.
  *   Дополнительные поля: processorType, ramSize, storageSize,
  *   batteryLife, screenSize, operatingSystem, isTouchscreen.
  */
-public class Laptop extends OfficeEquipment{
+public class Laptop extends OfficeEquipment {
     private   String processorType;
     private int ramSize;
     private double storageSize;

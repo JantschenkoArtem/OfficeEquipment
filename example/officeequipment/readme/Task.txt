@@ -43,7 +43,7 @@
 
   Класс Switch (Коммутатор) - наследуется от OfficeEquipment.
   Дополнительные поля: portCount, speed, layer, managementType,
-  powerOverEthernet, stackable, formFactor.
+  powerOverEthernet, stackable, formFactor. +
 
   Задание
   Создайте массив из 10 произвольных объектов, выбирая из вышеуказанных классов.
